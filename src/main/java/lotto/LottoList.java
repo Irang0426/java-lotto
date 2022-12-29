@@ -12,8 +12,8 @@ public class LottoList {
         lottoList = new ArrayList<>();
     }
 
-    public void createRandomLottoList(int money) {
-        for (int i = 0; i < money / 1000; i++) {
+    public void createRandomLottoList(int count) {
+        for (int i = 0; i < count; i++) {
             Lotto lotto = new Lotto(Randoms.pickUniqueNumbersInRange(1, 45, 6));
             lottoList.add(lotto);
         }

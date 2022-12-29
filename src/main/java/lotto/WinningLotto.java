@@ -6,7 +6,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class WinningLotto {
-    private Rank rank;
     private List<Integer> winningNumber;
     private int bonusNumber;
 
